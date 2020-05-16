@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@android:drawable/ic_dialog_info"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:text="  Assignment by - Mohammad Asad" />
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:drawableLeft="@android:drawable/ic_media_previous"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:drawableLeft="@android:drawable/ic_media_next"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:text="Next" />
+    <Button
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:text="#Title" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:visibility="gone"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:indeterminate="true"
+        android:max="100"
+        android:progress="10"
+        android:secondaryProgress="25"/>
+
+
+
+</FrameLayout>

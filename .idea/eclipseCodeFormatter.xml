@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="id" value="1470992759226" />
+        <option name="name" value="default" />
+        <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../music-android/formatter.xml" />
+        <option name="selectedJavaProfile" value="Android" />
+      </Settings>
+    </option>
+  </component>
+</project>
